@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #fff;
+    color: #0f0f0f;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0px 80px;
+}
+
+.logo {
+    color: #D6000D;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.logo span {
+    color: #0f0f0f;
+}
+
+.logo:hover {
+    filter: brightness(0.8);
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    padding: 16px;
+    text-decoration: none;
+    color: #0f0f0f;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header nav a:focus {
+    color: #D6000D;
+}
+
+.btn-login {
+    color: white;
+    background: #D6000D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    transition: filter 0.2s;
+}
+
+.btn-login:hover {
+    filter: brightness(0.9);
+}
+
+
+.chamada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 500px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.chamada img {
+    width: 320px;
+    height: 270px;
+}
+
+.section-info {
+    margin-left: 90px;
+}
+
+.section-info h2 {
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.section-info h1 {
+    color: #D6000D;
+    font-size: 60px;
+}
+
+.section-info a {
+    background: #D6000D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 30px;
+    transition: filter 0.2s;
+}
+
+.section-info a:hover {
+    filter: brightness(0.9);
+}
+
+.servicos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.servicos-itens ul {
+    list-style-type: none;
+    margin-right: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.servicos-itens ul li {
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.servicos-itens ul li i {
+    color: #D6000D;
+    margin-right: 18px;
+    font-size: 24px;
+}
+
+
+
+.servicos img {
+    width: 420px;
+    height: 370px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.contato form input {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: rgb(226, 226, 226);
+    height: 60px;
+    width: 280px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.contato form button {
+    height: 60px;
+    width: 280px;
+    border: none;
+    background: #D6000D;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.contato form button:hover {
+    filter: brightness(0.9);
+}
+
+
+.depoimentos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 120px;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background: #DCDCDC;
+    padding: 20px;
+    border-radius: 10px;
+    grid-template-rows: 2fr;
+}
+
+.card i {
+    font-size: 48px;
+    margin-right: 30px;
+}
+
+.card p {
+    text-align: justify;
+}
+
+.card h2 {
+    margin-top: 10px;
+}
+
+.footer-grid {
+    margin-top: 80px;
+    background: #0f0f0f;
+    color: #fff;
+    padding: 40px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: baseline;
+    gap: 20px;
+    text-align: left;
+}
+
+
+.logo-footer {
+    width: 250px;
+
+}
+
+.logo-footer h1 {
+    color: #D6000D;
+    font-size: 32px;
+}
+
+.logo-footer p {
+    margin-top: 12px;
+}
+
+.sobre {
+    width: 250px;
+
+}
+
+.sobre p {
+    margin-top: 12px;
+}
+
+.contate-nos {
+    width: 250px;
+
+}
+
+.contate-nos p {
+    margin-top: 12px;
+    font-size: 18px;
+
+}
+
+.social {
+    width: 250px;
+}
+
+.social ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    font-size: 32px;
+    margin-top: 12px;
+
+}
+
+.social ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+    .chamada {
+        flex-direction: column;
+        padding: 20px;
+
+    }
+
+    .chamada h2 {
+        margin-top: 40px;
+    }
+
+    .chamada h1 {
+        font-size: 48px;
+    }
+
+    .section-info {
+        margin: 0 auto;
+    }
+
+
+    .servicos {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .servicos-itens ul {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+    }
+
+    .servicos img {
+        margin-top: 40px;
+        height: 320px;
+        width: 340px;
+
+    }
+
+    .contato {
+        margin-top: 60px;
+    }
+
+    .contato form {
+        flex-direction: column;
+    }
+
+
+    .depoimentos {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .social ul {
+        justify-content: center;
+    }
+
+
+
+
+
+
+}
